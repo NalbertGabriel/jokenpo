@@ -1,0 +1,19 @@
+E:\ppt-jogo\ppt-jogo\bin\Debug\ppt-jogo.exe.config
+E:\ppt-jogo\ppt-jogo\bin\Debug\ppt-jogo.exe
+E:\ppt-jogo\ppt-jogo\bin\Debug\ppt-jogo.pdb
+E:\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.csprojResolveAssemblyReference.cache
+E:\ppt-jogo\ppt-jogo\obj\Debug\ppt_jogo.Form1.resources
+E:\ppt-jogo\ppt-jogo\obj\Debug\ppt_jogo.Properties.Resources.resources
+E:\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.csproj.GenerateResource.Cache
+E:\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.exe
+E:\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.pdb
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\bin\Debug\ppt-jogo.exe.config
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\bin\Debug\ppt-jogo.exe
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\bin\Debug\ppt-jogo.pdb
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.csprojResolveAssemblyReference.cache
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\obj\Debug\ppt_jogo.Form1.resources
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\obj\Debug\ppt_jogo.Properties.Resources.resources
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.csproj.GenerateResource.cache
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.csproj.CoreCompileInputs.cache
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.exe
+G:\Meu Drive\Programação Visual (C#)\ppt-jogo\ppt-jogo\obj\Debug\ppt-jogo.pdb
