@@ -56,6 +56,7 @@
             // 
             // pb_papel1
             // 
+            this.pb_papel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pb_papel1.Image = ((System.Drawing.Image)(resources.GetObject("pb_papel1.Image")));
             this.pb_papel1.Location = new System.Drawing.Point(324, 12);
             this.pb_papel1.Name = "pb_papel1";
@@ -66,6 +67,7 @@
             // 
             // pb_tesoura1
             // 
+            this.pb_tesoura1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pb_tesoura1.Image = global::ppt_jogo.Properties.Resources.tesoura;
             this.pb_tesoura1.Location = new System.Drawing.Point(168, 12);
             this.pb_tesoura1.Name = "pb_tesoura1";
@@ -76,6 +78,7 @@
             // 
             // pb_pedra1
             // 
+            this.pb_pedra1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pb_pedra1.Image = global::ppt_jogo.Properties.Resources.pedra;
             this.pb_pedra1.Location = new System.Drawing.Point(12, 12);
             this.pb_pedra1.Name = "pb_pedra1";
@@ -116,6 +119,7 @@
             // 
             // pb_pedra2
             // 
+            this.pb_pedra2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pb_pedra2.Image = global::ppt_jogo.Properties.Resources.pedra;
             this.pb_pedra2.Location = new System.Drawing.Point(12, 399);
             this.pb_pedra2.Name = "pb_pedra2";
@@ -127,6 +131,7 @@
             // 
             // pb_tesoura2
             // 
+            this.pb_tesoura2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pb_tesoura2.Image = global::ppt_jogo.Properties.Resources.tesoura;
             this.pb_tesoura2.Location = new System.Drawing.Point(168, 399);
             this.pb_tesoura2.Name = "pb_tesoura2";
@@ -138,6 +143,7 @@
             // 
             // pb_papel2
             // 
+            this.pb_papel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pb_papel2.Image = ((System.Drawing.Image)(resources.GetObject("pb_papel2.Image")));
             this.pb_papel2.Location = new System.Drawing.Point(324, 399);
             this.pb_papel2.Name = "pb_papel2";
@@ -149,29 +155,31 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Window;
             this.button1.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(194, 232);
+            this.button1.Location = new System.Drawing.Point(195, 250);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 56);
             this.button1.TabIndex = 9;
             this.button1.Text = "Jogar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lb_resultado
             // 
             this.lb_resultado.AutoSize = true;
-            this.lb_resultado.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_resultado.Location = new System.Drawing.Point(203, 300);
+            this.lb_resultado.Font = new System.Drawing.Font("Footlight MT Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_resultado.Location = new System.Drawing.Point(338, 268);
             this.lb_resultado.Name = "lb_resultado";
-            this.lb_resultado.Size = new System.Drawing.Size(0, 20);
+            this.lb_resultado.Size = new System.Drawing.Size(0, 32);
             this.lb_resultado.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(363, 232);
+            this.label2.ForeColor = System.Drawing.Color.DarkGreen;
+            this.label2.Location = new System.Drawing.Point(23, 234);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 20);
             this.label2.TabIndex = 12;
@@ -181,7 +189,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(363, 268);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(16, 270);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 20);
             this.label3.TabIndex = 13;
@@ -190,30 +199,32 @@
             // lb_vitorias
             // 
             this.lb_vitorias.AutoSize = true;
-            this.lb_vitorias.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_vitorias.Location = new System.Drawing.Point(439, 232);
+            this.lb_vitorias.Font = new System.Drawing.Font("Footlight MT Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_vitorias.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lb_vitorias.Location = new System.Drawing.Point(95, 234);
             this.lb_vitorias.Name = "lb_vitorias";
-            this.lb_vitorias.Size = new System.Drawing.Size(20, 20);
+            this.lb_vitorias.Size = new System.Drawing.Size(25, 25);
             this.lb_vitorias.TabIndex = 14;
             this.lb_vitorias.Text = "0";
             // 
             // lb_derrotas
             // 
             this.lb_derrotas.AutoSize = true;
-            this.lb_derrotas.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_derrotas.Location = new System.Drawing.Point(439, 268);
+            this.lb_derrotas.Font = new System.Drawing.Font("Footlight MT Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_derrotas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lb_derrotas.Location = new System.Drawing.Point(95, 268);
             this.lb_derrotas.Name = "lb_derrotas";
-            this.lb_derrotas.Size = new System.Drawing.Size(20, 20);
+            this.lb_derrotas.Size = new System.Drawing.Size(25, 25);
             this.lb_derrotas.TabIndex = 15;
             this.lb_derrotas.Text = "0";
             // 
             // lb_empates
             // 
             this.lb_empates.AutoSize = true;
-            this.lb_empates.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_empates.Location = new System.Drawing.Point(439, 300);
+            this.lb_empates.Font = new System.Drawing.Font("Footlight MT Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_empates.Location = new System.Drawing.Point(95, 302);
             this.lb_empates.Name = "lb_empates";
-            this.lb_empates.Size = new System.Drawing.Size(20, 20);
+            this.lb_empates.Size = new System.Drawing.Size(25, 25);
             this.lb_empates.TabIndex = 17;
             this.lb_empates.Text = "0";
             // 
@@ -221,7 +232,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(363, 300);
+            this.label5.Location = new System.Drawing.Point(20, 309);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 20);
             this.label5.TabIndex = 16;
